@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Vererbung",
+            "request": "launch",
+            "mainClass": "unterkapitel_03_05.Vererbung",
+            "projectName": "JKapitel-3_8a452e7a"
+        },
+        {
+            "type": "java",
+            "name": "Launch It!",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal",
+            "vmArgs": [
+                "-Xint"
+            ]
+        }
+    ]
+}
