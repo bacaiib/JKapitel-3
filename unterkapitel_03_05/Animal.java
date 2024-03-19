@@ -4,8 +4,8 @@ public class Animal {
 
         private String order;
 
-        public Animal (String o){
-        order = o;
+        public Animal (String order){
+        this.order = order;
         }
 
         public String getOrder(){

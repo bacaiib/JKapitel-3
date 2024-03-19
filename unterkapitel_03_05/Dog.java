@@ -4,15 +4,16 @@ public class Dog extends Animal{
 
     private String race;
 
-    public Dog () {
-        super ("Carnivora");
+    protected Dog (String race) {
+       super ("Fleischesser");
+       this.race = race;
     }
 
-    public void setRace(String r){
-        race = r;
+    public void setRace(String race){
+        this.race = race;
     }
 
-    public String getRace(){
+    protected String getRace(){
         return race;
     }
 

@@ -4,12 +4,12 @@ public class Vererbung {
 
     public static void main(String[] args) {
         
-        Person p = new Person();
+        Person p = new Person("Alred",12,90);
         Sportsman s = new Sportsman();
         Athlete a = new Athlete();
         Programmer x = new Programmer();
 
-        p.setName("Hans");
+        p.setName("David");
         s.setName("Roman");
         s.setSport("Boxer");
         a.setName("Jegor");

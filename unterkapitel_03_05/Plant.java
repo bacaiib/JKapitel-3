@@ -4,8 +4,8 @@ public class Plant {
 
     private float sizeInCm;
 
-    public void setGröße(float g){
-        sizeInCm = g;
+    public void setGröße(float sizeInCm){
+        this.sizeInCm = sizeInCm;
     }
 
     public float getGröße(){
@@ -18,7 +18,7 @@ public class Plant {
         }
     }
 
-    public void water (int liter){
+    protected void water (int liter){
     grow (liter * 0.1f);
     }
 }

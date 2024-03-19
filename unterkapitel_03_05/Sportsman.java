@@ -4,6 +4,10 @@ public class Sportsman extends Person {
 
     private String sport;
 
+    public Sportsman(){
+        super ("Steffi",23,66);
+    }
+
     public void setSport(String p){
         sport = p;
     }

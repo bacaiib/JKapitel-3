@@ -9,7 +9,7 @@ public class Wachsen {
 
         pflanze.grow(9);
 
-        pflanze.water(5);
+        pflanze.water(10);
         System.out.println(pflanze.getGröße());
     }
 
